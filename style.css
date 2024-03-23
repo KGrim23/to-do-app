@@ -141,3 +141,15 @@ main {
 .task .actions .delete {
 	color: crimson;
 }
+
+select{
+	padding: 5px 5px;
+	border: none;
+	background-color: rgb(225, 232, 232);
+	border-radius: 10px;
+	margin-right: 10px;
+	width: auto;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+}	

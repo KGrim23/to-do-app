@@ -36,7 +36,7 @@ deleteBtn.innerHTML = "Delete";
 //apend button to the DOM
 actionBtn.appendChild(deleteBtn);
 taskEl.appendChild(actionBtn);
-listEl.appendChild(taskEl)
+listEl.appendChild(taskEl) 
 
 input.value = "";
 
@@ -44,5 +44,16 @@ input.value = "";
     deleteBtn.addEventListener('click', () => {
         taskEl.remove();
         })
+
+// Priority img
+const optionEl = document.getElementsByTagName('option');
+const priority = optionEl.value;
+
+optionEl.appendChild(priority);
+taskEl.appendChild(optionEl);
+listEl.appendChild(taskEl)
+
 })
+
+
 
